@@ -10,3 +10,4 @@
    SimpleElastix and all dependencies need to be installed. https://simpleelastix.github.io/. 
    File path need to point to the corresponding path storing the dataset. (HE_512 and SHG_512_adjusted for raw HE input)
    File path need to point to the corresponding path storing the dataset. (ECM and SHG_512_adjusted for raw HE input)
+5. Results are shown in Supplementary figure 1107.docx
