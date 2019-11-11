@@ -5,7 +5,7 @@ Evaluation code (highlighted in bold) for automatic registration of H&E brightfi
    File path need to point to the corresponding path storing the dataset. (**_Input/HE_512_** and **_Input/SHG_512_not_adjusted_**)
    Comment out the segmentation part if testing the raw HE input.
 3. PSO-SIFT can be used by running **main_registration.mlx in _PSO-SIFT-matlab-V1.0_** folder. 
-   File path need to point to the corresponding path storing the dataset. (**_Input/HE_512_** and Input/SHG_512_not_adjusted_**)
+   File path need to point to the corresponding path storing the dataset. (**_Input/HE_512_** and **_Input/SHG_512_not_adjusted_**)
    Comment out the segmentation part if testing the raw HE input.
 4. Elastix can be used by running **elastix_affine.py.** 
    SimpleElastix and all dependencies need to be installed. https://simpleelastix.github.io/. 
