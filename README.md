@@ -1,4 +1,4 @@
-Evaluation code (highlighted in bold) for automatic registration of H&E brightfield image and SHG image of tissue sections. We compared two SIFT-based methods [1-4] and an intensity-based method [5-6]. Paramters are tuned for the datasets. 
+Evaluation code (highlighted in bold) for automatic registration of H&E brightfield image and SHG image of tissue sections. We compared two SIFT-based methods [1-4] and an intensity-based method [5-6] to our proposed method. 
 1. Proposed method can be used by running **CurveAlign.m in curvelets folder**. 
    Detailed instruction of the graphical user interface is in the paper.
 2. SIFT can be used by running **main_registration.mlx in SIFT-matlab-V1.0 folder**. 
@@ -12,6 +12,7 @@ Evaluation code (highlighted in bold) for automatic registration of H&E brightfi
    File path need to point to the corresponding path storing the dataset. (Input/HE_512 and Input/SHG_512_adjusted for raw HE input;    Input/ECM and Input/SHG_512_adjusted for ECM input)
    Need to change to use either ECM as source image or raw HE as source image in the code.
 5. Results are shown in Supplementary figure 1107.docx
+**Please contact us for any questions**
 
 **References:**  
 [1] D. G. Lowe, “Distinctive Image Features from Scale-Invariant Keypoints,” Int. J. Comput. Vis. 60, 91–110 (2004).  
