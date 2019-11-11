@@ -11,7 +11,7 @@ Evaluation code (highlighted in bold) for automatic registration of H&E brightfi
    SimpleElastix and all dependencies need to be installed. https://simpleelastix.github.io/. 
    File path need to point to the corresponding path storing the dataset. (Input/HE_512 and Input/SHG_512_adjusted for raw HE input;    Input/ECM and Input/SHG_512_adjusted for ECM input)
    Need to change to use either ECM as source image or raw HE as source image in the code.
-5. Results are shown in Supplementary figure 1107.docx
+5. Results are shown in Supplementary figure 1107.docx  
 **Please contact us for any questions**
 
 **References:**  
