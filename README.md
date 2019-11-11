@@ -1,4 +1,4 @@
-Evaluation code (highlighted in bold) for automatic registration of H&E brightfield image and SHG image of tissue sections. We compared two SIFT-based methods [1-4] and a intensity-based method [5-6]. Paramters are tuned for the datasets. 
+Evaluation code (highlighted in bold) for automatic registration of H&E brightfield image and SHG image of tissue sections. We compared two SIFT-based methods [1-4] and an intensity-based method [5-6]. Paramters are tuned for the datasets. 
 1. Proposed method can be used by running **CurveAlign.m in curvelets folder**. 
    Detailed instruction of the graphical user interface is in the paper.
 2. SIFT can be used by running **main_registration.mlx in SIFT-matlab-V1.0 folder**. 
