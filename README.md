@@ -5,7 +5,7 @@
 2. Running the program without a complete installation of MATLAB is possible, a detailed description of the installation can be found at
    https://loci.wisc.edu/software/curvealign
 3. Quick start guide for running in MATLAB
-   * Open MARLAB
+   * Open MATLAB
    * Navigate to** _curvealign_** folder and run **CurveAlign.m**   
    * Click _BD creation_ in the main panel     
    * Click _Get HE Files_ in the pop-up panel and select the H&E images    
