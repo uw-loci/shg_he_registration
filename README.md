@@ -1,17 +1,38 @@
-Evaluation code (highlighted in bold) for automatic registration of H&E brightfield image and SHG image of tissue sections. We compared two SIFT-based methods [1-4] and an intensity-based method [5-6] to our proposed method. 
-1. Proposed method can be used by running **CurveAlign.m in _curvealign_** folder. 
+# Evaluation code and demo code for automatic registration of H&E brightfield image and SHG image of tissue sections.
+
+## Demo
+1. [Proposed method](https://www.osapublishing.org/boe/abstract.cfm?uri=boe-11-1-160) is integrated in CurveAlign program, execute **CurveAlign.m in _curvealign_** folder.
+2. Running the program without a complete installation of MATLAB is possible, a detailed description of the installation can be found at
+   https://loci.wisc.edu/software/curvealign
+3. Quick start guide for running in MATLAB
+   * Open MARLAB
+   * Navigate to** _curvealign_** folder and run **CurveAlign.m**   
+   * Click _BD creation_ in the main panel     
+   * Click _Get HE Files_ in the pop-up panel and select the H&E images    
+   * Click _Get SHG Folder_ in the pop-up panel and seelect the folder containing all the SHG images, each SHG image should have the same file name as the corresponding H&E image.  
+   * Select the registration method.  
+      [Auto based on RGB intensity] uses a k-means clustering to segment the H&E images (slower)        
+      [Auto based on HSV intensity] uses Otsu's method and simple hue channel thresholding to segment the H&E images (faster)        
+   * Check _Reg_ box at the bottom of the pop-out window   
+   * Click _OK_ and wait, messages are logged in MATLAB command window
+   
+
+## Evaluation
+We compared two SIFT-based methods [1-4] and an intensity-based method [5-6] to our proposed method[7]. 
+1. Proposed method can be used by running **CurveAlign.m in _curvealign_** folder.  
    Detailed instruction of the graphical user interface is in the paper.
-2. SIFT can be used by running **main_registration.mlx in _SIFT-matlab-V1.0_** folder. 
+2. SIFT can be used by running **main_registration.mlx in _SIFT-matlab-V1.0_** folder.  
    File path need to point to the corresponding path storing the dataset. (**_Input/HE_512_** and **_Input/SHG_512_not_adjusted_**)
    Comment out the segmentation part if testing the raw HE input.
-3. PSO-SIFT can be used by running **main_registration.mlx in _PSO-SIFT-matlab-V1.0_** folder. 
+3. PSO-SIFT can be used by running **main_registration.mlx in _PSO-SIFT-matlab-V1.0_** folder.  
    File path need to point to the corresponding path storing the dataset. (**_Input/HE_512_** and **_Input/SHG_512_not_adjusted_**)
    Comment out the segmentation part if testing the raw HE input.
-4. Elastix can be used by running **elastix_affine.py.** 
+4. Elastix can be used by running **elastix_affine.py.**  
    SimpleElastix and all dependencies need to be installed. https://simpleelastix.github.io/. 
    File path need to point to the corresponding path storing the dataset. (**_Input/HE_512_** and **_Input/SHG_512_adjusted_** for raw HE input;    **_Input/ECM_** and **_Input/SHG_512_adjusted_** for ECM input)
    Need to change to use either ECM as source image or raw HE as source image in the code.
 5. Results are shown in **Supplementary figure 1107.docx** and **_comparison_** folder  
+
 **Please contact us for any questions**
 
 **References:**  
@@ -23,7 +44,8 @@ SIFT and Enhanced Feature Matching,” IEEE Geosci. Remote. Sens. Lett. 14, 3–
 [5] S. Klein, M. Staring, K. Murphy, M. Viergever, and J. Pluim, “elastix: A Toolbox for Intensity-Based Medical Image Registration,” IEEE Transactions on Med. Imaging 29, 196–205 (2010).  
 [6] K. Marstal, F. Berendsen, M. Staring, and S. Klein, “SimpleElastix: A User-Friendly, Multi-lingual Library for
 Medical Image Registration,” in 2016 IEEE Conference on Computer Vision and Pattern Recognition Workshops
-(CVPRW), (2016), pp. 574–582. ISSN: 2160-7516
+(CVPRW), (2016), pp. 574–582. ISSN: 2160-7516  
+[7] Adib Keikhosravi, Bin Li, Yuming Liu, and Kevin W. Eliceiri. "Intensity-based registration of bright-field and second-harmonic generation images of histopathology tissue sections." Biomedical Optics Express 11, no. 1 (2020): 160-173.
 
 
 
