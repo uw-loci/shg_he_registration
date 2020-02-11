@@ -6,7 +6,7 @@
    https://loci.wisc.edu/software/curvealign
 3. Quick start guide for running in MATLAB
    * Open MATLAB
-   * Navigate to** _curvealign_** folder and run **CurveAlign.m**   
+   * Navigate to **_curvealign_** folder and run **CurveAlign.m**   
    * Click _BD creation_ in the main panel     
    * Click _Get HE Files_ in the pop-up panel and select the H&E images    
    * Click _Get SHG Folder_ in the pop-up panel and seelect the folder containing all the SHG images, each SHG image should have the same file name as the corresponding H&E image.  
