@@ -3,7 +3,8 @@
 ## Demo
 1. [Proposed method](https://www.osapublishing.org/boe/abstract.cfm?uri=boe-11-1-160) is integrated in CurveAlign program, execute **CurveAlign.m in _curvealign_** folder.
 2. Running the program without a complete installation of MATLAB is possible, a detailed description of the installation can be found at
-   https://loci.wisc.edu/software/curvealign
+   * https://eliceirilab.org/software/curvealign/
+   * https://eliceirilab.org/sites/default/files/2017-08/Manual%20%20for%20%20CurveAlign%20V4.0%20Beta%20August%202017.pdf
 3. Quick start guide for running in MATLAB
    * Open MATLAB
    * Navigate to **_curvealign_** folder and run **CurveAlign.m**   
@@ -47,6 +48,23 @@ Medical Image Registration,” in 2016 IEEE Conference on Computer Vision and Pa
 (CVPRW), (2016), pp. 574–582. ISSN: 2160-7516  
 [7] Adib Keikhosravi, Bin Li, Yuming Liu, and Kevin W. Eliceiri. "Intensity-based registration of bright-field and second-harmonic generation images of histopathology tissue sections." Biomedical Optics Express 11, no. 1 (2020): 160-173.
 
-
+## Citations
+```
+@article{keikhosravi_intensity-based_2020,
+	title = {Intensity-based registration of bright-field and second-harmonic generation images of histopathology tissue sections},
+	volume = {11},
+	copyright = {\&\#169; 2019 Optical Society of America},
+	issn = {2156-7085},
+	url = {https://www.osapublishing.org/boe/abstract.cfm?uri=boe-11-1-160},
+	doi = {10.1364/BOE.11.000160},
+	number = {1},
+	journal = {Biomedical Optics Express},
+	author = {Keikhosravi, Adib and Li, Bin and Liu, Yuming and Eliceiri, Kevin W.},
+	month = jan,
+	year = {2020},
+	note = {Publisher: Optical Society of America},
+	pages = {160--173}
+}
+```
 
 
