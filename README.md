@@ -1,5 +1,5 @@
-# Evaluation code and demo code for automatic registration of H&E brightfield image and SHG image of tissue sections.
-
+# Intensity-based registration of bright-field and second-harmonic generation images of histopathology tissue sections
+Evaluation code and demo code for automatic registration of H&E brightfield image and SHG image of tissue sections.  
 ## Demo
 1. [Proposed method](https://www.osapublishing.org/boe/abstract.cfm?uri=boe-11-1-160) is integrated in CurveAlign program, execute **CurveAlign.m in _curvealign_** folder.
 2. Running the program without a complete installation of MATLAB is possible, a detailed description of the installation can be found at
